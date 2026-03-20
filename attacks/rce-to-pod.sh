@@ -38,7 +38,7 @@ run_exploit() {
   echo -e "${YELLOW}[*] Scanning ingress endpoints...${NC}"
   sleep 0.4
 
-  echo -e "${GREEN}[+] CVE-2025-XXXX detected (RCE)${NC}"
+  echo -e "${GREEN}[+] CVE-2025-1974 detected (IngressNightmare - RCE)${NC}"
   sleep 0.4
 
   echo -e "${YELLOW}[*] Preparing exploit payload...${NC}"
