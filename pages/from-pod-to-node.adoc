@@ -26,16 +26,8 @@ In this module, we simulate a real-world attack path:
 
 [source,bash]
 ----
-REPO_URL="https://github.com/SeanRickerd/frompodtonode.git"
-WORKDIR="/tmp/frompodtonode"
-
-if [ -d "$WORKDIR" ]; then
-  git -C $WORKDIR pull -q
-else
-  git clone -q $REPO_URL $WORKDIR
-fi
-
-cd $WORKDIR
+git clone https://github.com/SeanRickerd/frompodtonode.git ./frompodtonode
+cd frompodtonode
 ----
 
 This repository contains all required manifests for the demo.
